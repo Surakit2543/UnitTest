@@ -17,4 +17,4 @@ def divide (x,y):
     """divide Fuction"""
     if y == 0:
         raise ValueError('can not divide zero')
-    return x / y
+    return x // y
